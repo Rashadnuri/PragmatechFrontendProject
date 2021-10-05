@@ -1,0 +1,52 @@
+.buttons { 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    border: none;
+}
+
+.home_btn_top_right { 
+    background-color: crimson;
+}
+
+.home_btn_top_right:hover { 
+    background-color: black;
+    overflow-y: hidden;
+    transition: all .5s ease-in-out;
+    transform-origin: left top;
+    transform: scaleY(0);
+    
+}
+.home_btn_top_right:target {
+    transform: scaleY(1);
+  }
+
+.home_btn_bottom_left { 
+    background-color: crimson;
+
+}
+
+.home_btn_bottom_left:hover { 
+    background-color: black;
+    overflow-y: hidden;
+    transition: all .5s ease-in-out;
+    transform-origin: left top;
+    transform: scaleY(0);
+    
+}
+.home_btn_bottom_left:target {
+    transform: scaleY(1);
+  }
+
+
+  .home_btn_bottom_right { 
+    background: linear-gradient(to right, black 50%, white 50%);
+    transition: all .5s ease-out;
+    border: 1px solid black;
+    border-radius: 3px;
+    background-size: 200% 100%;
+  background-position: right bottom;
+  }
+
+  .home_btn_bottom_right:hover {
+    background-position: left bottom;
+  }
